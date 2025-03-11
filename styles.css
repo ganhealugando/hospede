@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(./img/fotos\ fundo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #ffcc00;
+}
+
+.promo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff5733;
+}
+
+.cta-button {
+    display: inline-block;
+    background: linear-gradient(45deg, #ff5733, #ffcc00);
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background: linear-gradient(45deg, #ffcc00, #ff5733);
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+    margin: auto;
+}
+
+.preco h2 {
+    font-size: 2em;
+    color: #28a745;
+}
