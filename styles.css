@@ -1,49 +1,84 @@
 body {
- background-image: url(./img/fundo.jpg);
- background-repeat: no-repeat; 
- background-size: cover;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+    text-align: center;
 }
-.botao-compra {
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e63946;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    background: #ff6600;
+    color: white;
     padding: 15px 25px;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
+    border-radius: 8px;
+    transition: 0.3s;
 }
 
-.botao-compra:hover {
-    background-color: #ffcc00;
+.button:hover {
+    background: #cc5200;
 }
 
-section {
-    padding: 30px 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+.checklist, .testimonials, .bonus {
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0;
+    background: #eef;
+    border-left: 4px solid #007bff;
+    border-radius: 8px;
 }
 
-ul {
+.checklist ul, .testimonials ul, .bonus ul {
     list-style: none;
     padding: 0;
 }
 
-ul li {
-    font-size: 18px;
-    margin: 10px 0;
+.checklist li, .testimonials li, .bonus li {
+    margin: 5px 0;
+    padding-left: 25px;
+    position: relative;
 }
 
-.para-quem p, .bonus p, .garantia p {
-    font-size: 18px;
+.checklist li::before, .testimonials li::before, .bonus li::before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+    color: #28a745;
+    font-weight: bold;
 }
 
-footer {
-    padding: 40px 20px;
-    background-color: #222;
+.highlight {
+    font-weight: bold;
+    color: #e63946;
 }
 
-footer .botao-compra {
-    background-color: #ffd700;
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
 }
