@@ -1,52 +1,49 @@
 body {
-    font-family: Arial, sans-serif;
-    background: url(./img/fotos\ fundo.jpg) no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 20px;
+ background-image: url(./img/fundo.jpg);
+ background-repeat: no-repeat; 
+ background-size: cover;
 }
-
-.container {
-    max-width: 800px;
-    margin: auto;
-    background: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-h1, h2 {
-    color: #ffcc00;
-}
-
-.promo {
-    font-size: 1.5em;
+.botao-compra {
+    padding: 15px 25px;
+    font-size: 18px;
     font-weight: bold;
-    color: #ff5733;
-}
-
-.cta-button {
-    display: inline-block;
-    background: linear-gradient(45deg, #ff5733, #ffcc00);
-    color: white;
-    padding: 15px 30px;
-    font-size: 1.2em;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
 }
 
-.cta-button:hover {
-    background: linear-gradient(45deg, #ffcc00, #ff5733);
+.botao-compra:hover {
+    background-color: #ffcc00;
+}
+
+section {
+    padding: 30px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 ul {
-    text-align: left;
-    display: inline-block;
-    margin: auto;
+    list-style: none;
+    padding: 0;
 }
 
-.preco h2 {
-    font-size: 2em;
-    color: #28a745;
+ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.para-quem p, .bonus p, .garantia p {
+    font-size: 18px;
+}
+
+footer {
+    padding: 40px 20px;
+    background-color: #222;
+}
+
+footer .botao-compra {
+    background-color: #ffd700;
 }
