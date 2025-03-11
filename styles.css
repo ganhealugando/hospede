@@ -1,79 +1,145 @@
-body {
-}
-
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background: #b67070;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    color: #e63946;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.price {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ff0000;
-    margin: 10px 0;
-}
-
-.button {
-    display: inline-block;
-    background: #ff6600;
-    color: rgb(127, 89, 89);
-    padding: 15px 25px;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-.button:hover {
-    background: #cc5200;
-}
-
-.checklist, .testimonials, .bonus {
-    text-align: left;
-    padding: 10px;
-    margin: 10px 0;
-    background: #eef;
-    border-left: 4px solid #007bff;
-    border-radius: 8px;
-}
-
-.checklist ul, .testimonials ul, .bonus ul {
-    list-style: none;
+* {
+    margin: 0;
     padding: 0;
-}
-
-.checklist li, .testimonials li, .bonus li {
-    margin: 5px 0;
-    padding-left: 25px;
-    position: relative;
-}
-
-.checklist li::before, .testimonials li::before, .bonus li::before {
-    content: '✔️';
-    position: absolute;
-    left: 0;
-    color: #28a745;
-    font-weight: bold;
-}
-
-.highlight {
-    font-weight: bold;
-    color: #e63946;
-}
-
-.footer {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .highlight {
+    font-size: 1.5rem;
+    color: #d9534f;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .cta {
+    font-size: 1.2rem;
+    color: #5bc0de;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  .depoimentos .depoimento {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bonus ul {
+    margin-left: 20px;
+  }
+  
+  .bonus ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .preco h2 {
+    font-size: 2rem;
+    color: #e91e63;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .cta-button {
+    text-align: center;
     margin-top: 20px;
-    font-size: 14px;
-    color: #666;
-}
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    .highlight {
+      font-size: 1.2rem;
+    }
+  
+    .cta {
+      font-size: 1rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    ul li {
+      font-size: 1rem;
+    }
+  
+    .preco h2 {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      padding: 12px 25px;
+      font-size: 1rem;
+    }
+  }
+  
