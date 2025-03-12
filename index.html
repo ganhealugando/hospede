@@ -2,71 +2,188 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maximize seus Lucros com Aluguel de Curta Duração</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guia de Aluguel de Curta Duração</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #eef1f6;
+            color: #333;
+        }
+        .hero {
+            background: linear-gradient(135deg, #6e45e2, #88d3ce);
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+            border-radius: 0 0 50px 50px;
+        }
+        .section {
+            padding: 60px 20px;
+        }
+        .card {
+            margin-bottom: 30px;
+            border-radius: 15px;
+            transition: transform 0.3s;
+            padding: 20px;
+            text-align: center;
+            background: white;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .cta {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #ff5f6d, #ffc371);
+            color: white;
+            border-radius: 20px;
+        }
+        .cta a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Maximize seus Lucros com Aluguel de Curta Duração</h1>
-            <h2>Transforme seu imóvel em uma máquina de dinheiro!</h2>
-            <a href="https://pay.kiwify.com.br/oU4b6HG"class="botao-compra">📥 COMPRE AGORA DE 99,90 POR 29,90</a>
-    </header>
-
-        <section class="beneficios">
-            <h2>🚀 Para Quem é Este Guia?</h2>
-            <ul>
-                <li>✔️ Para quem quer Automatizar sua operação e Escalar o Negócio</li>
-                <li>✔️ Para quem deseja estratégias valiosas para Aumentar Reservas no Airbnb</li>
-                <li>✔️ Para quem busca ter hóspedes satisfeitos e recorrentes</li>
-                <li>✔️ Para quem quer evitar erros que fazem anfitriões perderem dinheiro</li>
-                <li>✔️ Para quem deseja transformar o aluguel de curta duração em um negócio de sucesso</li>
-            </ul>
-        </section>
-
-        <section class="sobre">
-            <h2>👤 Quem Sou Eu?</h2>
-            <p>Meu nome é <strong>Giancarlo Brandalise</strong> e sou anfitrião há <strong>18 anos</strong>.</p>
-            <p>🎓 Formado em Administração e Direito pela UNIVALI-SC</p>
-            <p>🎓 MBA em Gestão Empresarial pela FGV-SP</p>
-            <p>🏡 Mais de <strong>10 mil hóspedes satisfeitos</strong></p>
-            <p>💰 Faturei mais de <strong>7 dígitos</strong> alugando imóveis no Airbnb e Booking</p>
-        </section>
-
-        <section class="conteudo">
-            <h2>📚 O Que Você Vai Aprender?</h2>
-            <ul>
-                <li>✔️ Como criar um anúncio irresistível e atrair reservas todos os dias</li>
-                <li>✔️ Como Otimizar seu anúncio do seu imóvel</li>
-                <li>✔️ Gerenciamento Financeiro e Controle de Custos</li>
-                <li>✔️ Como automatizar sua operação e reduzir seu trabalho</li>
-                <li>✔️ Estratégias para Aumentar Reservas no Airbnb, Booking, Vrbo, Decolar</li>
-            </ul>
-        </section>
-
-        <section class="depoimentos">
-            <h2>💬 Veja o Que Nossos Alunos Dizem</h2>
-            <p>✅ "Dobrei minhas faturas em apenas 3 meses aplicando essas estratégias!" – <strong>Ana Souza, anfitriã em Florianópolis</strong></p>
-            <p>✅ "Comecei do zero e hoje minha renda mensal é maior que meu antigo salário!" – <strong>Carlos Mendes, anfitrião no Rio de Janeiro</strong></p>
-            <p>✅ "O método do Giancarlo me ensinou a cobrar mais e atrair melhores hóspedes!" – <strong>Mariana Castro, anfitriã em São Paulo</strong></p>
-        </section>
-
-        <section class="bonus">
-            <h2>🎁 Bônus Exclusivos Para Quem Comprar Hoje</h2>
-            <p>🔥 Checklist do Anúncio Perfeito</p>
-            <p>🔥 Modelo de Mensagens Prontas</p>
-            <p>🔥 Acesso ao Grupo VIP de Anfitriões</p>
-        </section>
-
-        <section class="preco">
-            <h2>💰 Apenas <span class="preco-novo">R$29,90!</span></h2>
-            <p>💳 Pagamento seguro via PIX, Cartão ou Boleto</p>
-            <p>📥 Receba o e-Book imediatamente após a compra!</p>
-            <p>🔒 Garantia de 7 Dias – Ou seu dinheiro de volta!</p>
-            <a href="https://pay.kiwify.com.br/oU4b6HG" class="botao">📥 Comprar Agora por R$29,90</a>
-        </section>
+    <div class="hero">
+        <h1>Maximize seus lucros com aluguel de curta duração!</h1>
+        <h4>🔥 De <del>R$97,00</del> por apenas <strong>R$29,90!</strong> 🔥</h4>
+        <p>📥 Compre agora e comece a faturar ainda hoje!</p>
     </div>
+
+    <div class="container section">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <i class="fas fa-exclamation-triangle fa-3x text-danger"></i>
+                    <p>Para quem quer evitar erros que fazem anfitriões perderem dinheiro</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <i class="fas fa-briefcase fa-3x text-dark"></i>
+                    <p>Para quem deseja transformar o aluguel de curta duração em um negócio de sucesso</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <i class="fas fa-cogs fa-3x text-primary"></i>
+                    <p>Para quem quer Automatizar sua operação e escalar o negócio</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <i class="fas fa-chart-line fa-3x text-success"></i>
+                    <p>Para quem deseja estratégias valiosas para aumentar reservas no Airbnb</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <i class="fas fa-user-check fa-3x text-warning"></i>
+                    <p>Para quem busca ter hóspedes satisfeitos e recorrentes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container section">
+        <div class="text-center mb-4">
+            <h2 class="text-center">👤 Quem Sou Eu Para Te Ensinar Isso?</h2>
+            <h3 class="fw-bold text-primary">Giancarlo Brandalise</h3>
+            <p class="lead">Anfitrião há 18 anos com vasta experiência no mercado de aluguel de curta duração.</p>
+        </div>
+          <ul>
+              <li>🎓 Formado em Administração e Direito pela UNIVALI-SC</li>
+              <li>🎓 MBA em Gestão Empresarial pela FGV-SP</li>
+              <li>🏡 Mais de 10 mil hóspedes satisfeitos</li>
+              <li>💰 Faturei mais de 7 dígitos alugando imóveis no Airbnb e Booking</li>
+          </ul>
+          <p>Se você quer aprender o método que me fez lucrar alto no aluguel de curta duração, este eBook é para você!</p>
+    </div>
+
+    <div class="container section">
+        <h2 class="text-center">📚 O que você vai aprender?</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <i class="fas fa-bullhorn fa-3x text-info"></i>
+                    <p>Como criar um anúncio irresistível e atrair reservas todos os dias</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <i class="fas fa-chart-bar fa-3x text-danger"></i>
+                    <p>Como otimizar o anúncio do seu imóvel</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <i class="fas fa-wallet fa-3x text-success"></i>
+                    <p>Gerenciamento financeiro e controle de custos</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <i class="fas fa-robot fa-3x text-warning"></i>
+                    <p>Como automatizar sua operação e reduzir seu trabalho</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container section">
+        <h2 class="text-center">💬 Veja o Que Nossos Alunos Dizem</h2>
+        <div class="card">
+            <p><strong>✅ "Dobrei minhas faturas em apenas 3 meses aplicando essas estratégias!"</strong> — Ana Souza, anfitriã em Florianópolis</p>
+        </div>
+        <div class="card">
+            <p><strong>✅ "Comecei do zero e hoje minha renda mensal é maior que meu antigo salário!"</strong> — Carlos Mendes, hospedado no Rio de Janeiro</p>
+        </div>
+        <div class="card">
+            <p><strong>✅ "O método do Giancarlo me ensinou a cobrar mais e atrair melhores hóspedes!"</strong> — Mariana Castro, anfitriã em São Paulo</p>
+        </div>
+    </div>
+
+    <div class="container section">
+        <h2 class="text-center">🎁 Bônus Exclusivos Para Quem Comprar Hoje</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <i class="fas fa-check-circle fa-3x text-primary"></i>
+                    <p><strong>Checklist do Anúncio Perfeito</strong> – Para criar uma oferta irresistível</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <i class="fas fa-comments fa-3x text-success"></i>
+                    <p><strong>Modelo de Mensagens Prontas</strong> – Para encantar seus hóspedes e evitar problemas</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <i class="fas fa-users fa-3x text-warning"></i>
+                    <p><strong>Acesso ao Grupo VIP</strong> – Para tirar dúvidas e aprender com outros anfitriões</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta mt-5">
+        <h2>💰 Apenas R$29,90!</h2>
+        <p>💳 Pagamento seguro via PIX, Cartão ou Boleto</p>
+        <p>📥 Receba o eBook imediatamente após a compra!</p>
+        <p>🔒 Garantia de 7 Dias – Ou seu dinheiro de volta!</p>
+        <a href="https://pay.kiwify.com.br/oU4b6HG" class="btn btn-light btn-lg">🔘 QUERO MEU EBOOK AGORA!</a>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
 
